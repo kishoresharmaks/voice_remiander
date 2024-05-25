@@ -5,9 +5,9 @@ use Twilio\Rest\Client;
 
 // Database connection settings
 $db_host = 'localhost';
-$db_username = 'callshod_demo'; // Replace with your actual username
-$db_password = ';bC9LS)b*sx';   // Replace with your actual password
-$db_name = 'callshod_demo';
+$db_username = ''; // Replace with your actual username
+$db_password = '';   // Replace with your actual password
+$db_name = ' ';
 
 // Establishing database connection
 $conn = new mysqli($db_host, $db_username, $db_password, $db_name);
@@ -18,8 +18,8 @@ if ($conn->connect_error) {
 }
 
 // Twilio credentials
-$sid = 'ACa3d82c2d642b428504c8ee958adc8ebd';
-$token = 'e918b9390d65a0dd5d018867f56fbba7';
+$sid = ' ';
+$token = ' ';
 
 try {
     // Create Twilio client
@@ -43,8 +43,8 @@ try {
 
             // Make the call using Twilio
             $call = $twilio->calls->create(
-                "+918667473266", // to
-                "+14028148629", // from
+                "", // to
+                "", // from
                 ["twiml" => "<Response><Say>$callText</Say></Response>"]
             );
 

@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
 $db_host = 'localhost';
-$db_username = 'callshod_demo'; // Replace with your actual username
-$db_password = ';bC9LS)b*sx';   // Replace with your actual password
-$db_name = 'callshod_demo';
+$db_username = ' '; // Replace with your actual username
+$db_password = '';   // Replace with your actual password
+$db_name = ' ';
 
 // Establishing database connection
 $conn = new mysqli($db_host, $db_username, $db_password, $db_name);
