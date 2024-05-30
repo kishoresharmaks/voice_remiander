@@ -1,7 +1,6 @@
 # Voice Remiander
 
 
-**Client:** An innovative software development company specializing in productivity tools.
 
 **Project:** Voice Remainder
 
